@@ -1,0 +1,17 @@
+echo 'Hello World'
+mkdir new_dir
+rmdir new_dir
+cp /Users/adeseye/Desktop/IH-Labs/lab-bash/lorem/sed.txt /Users/adeseye/Desktop/IH-Labs/lab-bash/lorem-copy
+cp at.txt lorem.txt /Users/adeseye/Desktop/IH-Labs/lab-bash/lorem-copy 
+cat sed.txt
+cat at.txt, cat lorem.txt
+head -3 sed.txt
+tail -3 sed.txt
+echo "Homo homini lupus." >> sed.txt
+tail -3 sed.txt
+sed 's/et/ET/g' at.txt
+whoami
+pwd
+find . -type f -name "*.txt"
+wc -l sed.txt
+ls lorem* | wc -l
